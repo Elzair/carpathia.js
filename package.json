@@ -1,6 +1,6 @@
 {
   "name": "carpathia",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Very simple translation module for Node.js",
   "main": "index.js",
   "scripts": {
