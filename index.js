@@ -1,7 +1,7 @@
 exports.translate = function(dictionary, language, symbol) {
-  if (!dictionary || typeof dictionary !== 'object' || !dictionary.languages ||
+  if (!dictionary || typeof dictionary !== 'object' || !dictionary.hasOwnProperty('languages') ||
       typeof dictionary.languages !== 'object') {
-        throw new Error("dictionary parameter has invalid format!");
+        throw new Error("Invalid dictionary!");
   }
 
   if (!language || !dictionary.languages.hasOwnProperty(language)) {

@@ -4,7 +4,7 @@
   "description": "Very simple translation module for Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha test/test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Elzair/carpathia.js/issues"
   },
-  "homepage": "https://github.com/Elzair/carpathia.js"
+  "homepage": "https://github.com/Elzair/carpathia.js",
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
 }
