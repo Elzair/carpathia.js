@@ -1,0 +1,23 @@
+{
+  "name": "carpathia",
+  "version": "0.0.1",
+  "description": "Very simple translation module for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Elzair/carpathia.js.git"
+  },
+  "keywords": [
+    "i18n",
+    "translation"
+  ],
+  "author": "Philip Woods",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Elzair/carpathia.js/issues"
+  },
+  "homepage": "https://github.com/Elzair/carpathia.js"
+}
