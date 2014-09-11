@@ -34,3 +34,10 @@ var translations = {
 
 console.log(carpathia.translate(translations, "fr-FR", "phrase")); // Outputs "c'est la vie"
 ```
+
+Test
+----
+
+To run the unit tests, type the following command.
+
+    npm test
