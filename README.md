@@ -22,14 +22,12 @@ The following code shows how to use **carpathia.js**.
 var carpathia = require('carpathia');
 
 var translations = {
-  "languages": {
-      "en-US": {
-        "phrase": "that's life"
-      }
-    , "fr-FR": {
-        "phrase": "c'est la vie"
-      }
-  }
+    "en-US": {
+      "phrase": "that's life"
+    }
+  , "fr-FR": {
+      "phrase": "c'est la vie"
+    }
 };
 
 console.log(carpathia.translate(translations, "fr-FR", "phrase")); // Outputs "c'est la vie"
