@@ -15,5 +15,7 @@
       , "setTimeout" : false
       , "setInterval" : false
       , "clearInterval" : false
+      , "it": false
+      , "describe": false
     }
 }
